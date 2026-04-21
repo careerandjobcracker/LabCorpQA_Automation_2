@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QA Automation Suite" verbose="2" parallel="none">
+
+    <test name="API Tests - GET">
+        <classes>
+            <class name="com.qa.runners.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="API Tests - POST">
+        <classes>
+            <class name="com.qa.runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
