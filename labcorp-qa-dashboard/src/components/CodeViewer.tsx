@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FileText, Code2, Package } from 'lucide-react';
+import { FileText, Code as Code2, Package } from 'lucide-react';
 import { GET_REQUEST_FEATURE, POST_REQUEST_FEATURE, POM_XML, PAYLOAD_BUILDER } from '../data/featureFiles';
 
 interface FileNode {

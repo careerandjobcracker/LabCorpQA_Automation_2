@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { CheckCircle, Clock, Play, TrendingUp, Layers } from 'lucide-react';
+import { CircleCheck as CheckCircle, Clock, Play, TrendingUp, Layers } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import type { TestRun, TestSuite } from '../types';
 import { StatusBadge } from './StatusBadge';
